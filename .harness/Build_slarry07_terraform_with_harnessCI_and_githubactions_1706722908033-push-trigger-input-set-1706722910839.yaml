@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_slarry07_terraform_with_harnessCI_and_githubactions_1706722908033-push-trigger-input-set
+  identifier: Build_slarry07_terraform_with_harnessCI_and_githubactions_1706722908033pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_slarry07_terraform_with_harnessCI_and_githubactions_1706722908033
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
